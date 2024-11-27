@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+  }
+
+  .container {
+    background-color: white;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    background-color: silver;
+    
+  }
+  .box {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+  }
+  li {
+    display:inline-block;
+    padding: 10px;
+    font-size: larger;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .row3{
+    display: flex;
+    justify-content: flex-start;
+    background-color: bisque;
+    font-style: inherit;
+
+  }
+  .row4{
+    display: flex;
+    justify-content: flex-end;
+    background-color:aliceblue;
+    text-align: left;
+
+  }
+  

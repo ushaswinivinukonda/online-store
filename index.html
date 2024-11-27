@@ -1,10 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online-Store</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- internal css -->
+    <!--
     <style>
       * {
         margin: 0px;
@@ -43,7 +46,6 @@
         display: flex;
         justify-content: flex-start;
         background-color: bisque;
-        font-style: inherit;
 
       }
       .row4{
@@ -53,19 +55,26 @@
 
       }
     </style>
+    <style>
+      h2{
+        background-color: blue;
+      }
+    </style>-->
   </head>
+
   <body>
     <div class="container">
       <div class="header">
-        <div><h1>Online Store</h1></div>
+        <div>
+          <h1>Online Store</h1>
+        </div>
         <div>
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Service</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#">Login</a></li>
-
+            <li><a href="/Login.html">Login</a></li>
           </ul>
         </div>
       </div>
@@ -73,6 +82,7 @@
         <div class="box">
           <img src="/assets/images/1.png" />
           <h2>Product 1</h2>
+          <!-- <h2 style="background-color: red;">Product 1</h2>inline css-->
           <p>This is the description of the product.</p>
           <h3>Rs 230</h3>
           <button>Add to Cart</button>
@@ -94,29 +104,36 @@
       </div>
       <div class="row3">
         <div class="box">
-        <div><img src="/assets/images/4.png" /></div>
-    </div>
+          <div><img src="assets/images/4.png" /></div>
+          <h2>Product 4</h2>
+          <h3>Rs 375</h3>
+          <button>Add to Cart</button>
+        </div>
         <div>
-            <h4>Heading 1</h4>
-            <p>
-                This is description of the product.
-            </p>
-            <h4></h4>
+          <h2>Heading 1</h2>
+          <p>
+            This is description of the product.This is description of the
+            product.This is description of the product.This is description of
+            the product.
+          </p>
         </div>
+      </div>
+      <div class="row4">
+        <div>
+          <h2>Heading 2</h2>
+          <p>
+            This is description of the product.This is description of the
+            product.This is description of the product.This is description of
+            the product.
+          </p>
         </div>
-        <div class="row4">
-            <div>
-                <h4>Heading 2</h4>
-                <p>
-                    This is description of the product.
-                </p>
-            </div>
-            <div class="box">
-            <div><img src="/assets/images/5.png" /></div>
+        <div class="box">
+          <div><img src="/assets/images/5.png" /></div>
+          <h2>Product 5</h2>
+          <h3>Rs 375</h3>
+          <button>Add to Cart</button>
         </div>
-            </div>
-        
-
+      </div>
     </div>
   </body>
 </html>
